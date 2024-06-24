@@ -1,0 +1,90 @@
+body{
+    margin: 50;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.border{
+    border: 0.1px solid black;
+    height: 138px;
+    width: 457px;
+}
+
+.card {
+    margin: 4px;    
+    display: flex;
+    height: 130px;
+}
+
+/* .img-div{
+    height: 130px;
+    width: 130px;
+} */
+
+.avatar{
+    height: 130px;
+    width: 130px;
+}
+
+.details{    
+    padding-left: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+
+.email{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+
+.info{
+    font-family: "Roboto";
+    font-size: 20px;
+    margin-bottom: 24px;
+    font-weight: normal;
+}
+
+.comment{
+    font-family: "Roboto";
+    color: DimGray;
+    margin-right: 24px;
+    height: 20px;
+    width: 20px;
+}
+
+/* .interact{
+    margin: 0px;
+} */
+
+.retweet{
+    font-family: "Roboto";
+    color: DimGray;
+    margin-right: 24px;
+    height: 20px;
+    width: 20px;
+}
+
+.like{
+    font-family: "Roboto";
+    color: DimGray;
+    height: 20px;
+    width: 20px;
+}
+
+/* .fa-ul{
+    font-family: "Roboto";
+    color: DimGray;
+    margin:10px;
+
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+} */

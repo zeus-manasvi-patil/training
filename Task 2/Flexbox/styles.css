@@ -1,0 +1,43 @@
+*{
+   align-content: center;
+   text-align: center;
+   border: 1px solid black;
+}
+
+.container{
+    /* border: 1px solid black; */
+    align-content: stretch;
+    height: 100vh;
+    gap: 4px;
+    font-size: 20px;
+}
+
+.header{
+    padding: 100px;
+}
+
+main{
+    display: flex;
+    padding: 100px;
+}
+
+.sidebar{
+
+}
+
+.content1{
+
+}
+
+.content2{
+
+}
+
+.content3{
+
+}
+
+.footer{
+    padding: 100px;
+}
+
