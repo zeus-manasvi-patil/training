@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <title>Login Page</title>
+</head>
+<body>
+    <header>
+        <img src="Quantum Logo.svg" alt="quantum logo" style="height: 30px">
+    </header>
+    <main>
+        <div class="top">
+            <span class="iconify" style="color: green;" data-icon="majesticons:arrow-left-line" data-width="20" data-height="20"></span>
+            <p class="login">Log in with Quantum</p>
+        </div>
+        <div class="radio">
+            <input type="radio" id="district" name="place" value="District">
+            <label for="dis">District</label> 
+            <input type="radio" id="independent" name="place" value="Independent School">
+            <label for="independent">Independent School</label> 
+        </div> 
+
+        <div class="info1">
+            <p class="state">State*</p>
+            <select class="dropdown-box" id="state" name="state">
+                <option value="state">Alabama</option>
+            </select>
+        </div>
+
+        <div class="info2">
+            <p class="district">District*</p>
+            <select class="dropdown-box" id="district1" name="district1">
+                <option value="district">Alabama School district</option>
+            </select>
+        </div>
+
+        <div class="email">
+            <input type="email" id="email" placeholder="Username/Email ID*" name="email">
+            <p class="etext">FORGOT USERNAME?</p>
+        </div>
+
+        <div class="password">
+            <!-- <div class="pass-top"> -->
+                <input type="password" id="password" placeholder="Password*" name="password">
+                <span class="password-toggle-icon"><i class="fas fa-eye"></i></span>
+            <!-- </div> -->
+            <p class="ptext">FORGOT PASSWORD?</p>
+        </div>
+
+        <div class="remember">
+            <label> <input type="checkbox" checked="checked" name="remember"> Remember me </label>
+        </div>
+
+        <div class="log">
+            <button type="submit">LOG IN</button>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-top">
+            <a href="#about">About</a> |
+            <a href="#contactus">Contact Us</a>
+        </div>
+        <div class="footer-bottom">
+            <img src="Quantum Logo.svg" alt="quantum logo" style="height: 15px"> |
+            <p id="ftext">Copyright © 2020-2021 &nbsp; <b>Zeus Systems Pvt. Ltd.</b> &nbsp; All rights reserved</p>
+        </div>
+    </footer>
+
+    <!-- iconify -->
+    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
+</body>
+</html>

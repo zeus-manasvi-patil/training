@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(236, 234, 233);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Quicksand, sans-serif;
+    font-weight: medium;
+}
+
+/* navbar */
+header{
+    background-color: rgb(39, 41, 44);
+    width: 100vw;
+    padding: 5px;
+    position: fixed;
+    top: 0px;
+    flex-grow: 1px;
+    border-bottom: 3px solid rgb(60, 187, 238);
+}
+
+header > img{
+    padding-left: 20px;
+}
+
+/* main body */
+main{
+    max-width: 400px;
+    width: 100%;
+    border-top: 3px solid rgb(60, 187, 238);
+    background-color: white;
+    padding: 10px;
+}
+
+/* main body head */
+.top{
+    display: flex;
+    margin-bottom: 20px;
+}
+.iconify{
+    padding-left: 5px;
+}
+.login{
+    text-align: center;
+    font-weight: bold;
+    flex-grow:1;
+}
+
+/* main body content */
+.radio {
+    padding: 9px;
+    /* margin-bottom: 10px; */
+    font-size: 12px;
+    color: #212529;
+    font-weight:bold;
+    accent-color: green;
+}
+.radio > #independent {
+    margin-left: 32px;
+}
+
+.radio > label {
+    margin-left: 1px;
+}
+
+.info1{
+    padding: 10px;
+    font-size: 9px;
+}
+
+.info1 > select {
+    width:100%;
+    font-size: 12px;
+    padding: 4px 0px 2px;
+    border-width: 0 0 0.1px ;
+    border-color: #ECECEC;
+}
+
+.info2{
+    padding: 10px;
+    font-size: 9px;
+}
+
+.info2 > select {
+    width:100%;
+    font-size: 12px;
+    padding: 4px 0px 2px;
+    border-width: 0 0 0.1px ;
+    border-color: #ECECEC;
+}
+
+.email{
+    padding: 30 10 10px;
+}
+
+.email > input {
+    width: 100%;
+    font-size: 12px;
+    padding-bottom: 2px;
+    border-width: 0 0 0.1px ;
+    border-color: #ECECEC;
+}
+
+.email > p{
+    padding-top: 2px;
+    font-size: 9px;
+    text-align: right;
+    font-weight:bold;
+    color: green;
+}
+
+.password{
+    padding: 6px 10px 10px;
+    position:relative;
+    padding: 10px;
+}
+
+/* .password > .pass-top{
+    width: 100%;
+    display: flex;
+    font-size: 12px;
+    padding-bottom: 2px;
+    border-color: #ECECEC;
+    border-width: 0 0 0.1px ;
+
+} */
+
+.password > input {
+    width: 100%;
+    font-size: 12px;
+    padding-bottom: 2px;
+    border-color: #ECECEC;
+    border-width: 0 0 0.1px ;
+}
+
+.password-toggle-icon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+  }
+  
+  .password-toggle-icon i {
+    font-size: 12px;
+    line-height: 1;
+    color: green;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .password-toggle-icon i:hover {
+    color: #000;
+  }
+
+.password > p{
+    padding-top: 2px;
+    font-size: 9px;
+    text-align: right;
+    font-weight:bold;
+    color: green;
+
+}
+
+.remember{
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    accent-color: green
+}
+
+.log{
+    padding-top: 15px;
+}
+.log > button{
+    background-color: #32cc7f;
+    border-radius: 3px;
+    color: #212529;
+    font-size: 9px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    border: none;
+    cursor: pointer;
+    display: block;
+    width: 40%;
+    box-shadow: 1px 2px 1px rgb(207, 211, 212);
+
+}
+
+.log > button:hover{
+    opacity: 0.8;
+}
+/* footer */
+footer{
+    position: absolute;
+    padding: 0px;
+    bottom: 0px;
+    width: 100vw;
+    flex-grow: 1;
+}
+
+.footer-top > a{
+    text-decoration: none;
+    color: green;
+}
+
+.footer-top{
+    display: flex;
+    justify-content:center;
+    gap: 8px;
+    padding: 10px;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.footer-bottom{
+    display: flex;
+    background-color: rgb(216, 214, 212);
+    color: rgb(83, 80, 80);
+    font-size: 9px;
+    justify-content:center;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 8px;
+}

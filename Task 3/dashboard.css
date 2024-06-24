@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(236, 234, 233);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Quicksand, sans-serif;
+    font-weight: medium;
+}
+
+/* navbar */
+header{
+    background-color: rgb(39, 41, 44);
+    width: 100vw;
+    padding: 5px;
+    position: fixed;
+    top: 0px;
+    flex-grow: 1px;
+    border-bottom: 3px solid rgb(60, 187, 238);
+}
+
+header > img{
+    padding-left: 20px;
+}
+
+/* main body */
+main{
+    margin-top: 80px;
+    padding-left: 20;
+    padding-right: 20;
+    height: 100vh;
+}
+
+.container1{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    font-size: 13px;
+    color:black;
+    background-color: rgb(149, 221, 149);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    "c1 c2"
+}
+
+.container1 > .courses{
+    grid-area: c1;
+}
+
+.container1 > .classes{
+    grid-area: c2;
+}
+
+.container2{
+    display: grid;
+    /* align-content: stretch; */
+    /* height: 100vh; */
+    background-color: white;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "1 2"
+    "3 4";
+}
+
+
+/* footer */
+footer{
+    position: absolute;
+    /* padding: 0px; */
+    bottom: 0px;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.footer-top > a{
+    text-decoration: none;
+    color: green;
+}
+
+.footer-top{
+    display: flex;
+    justify-content:center;
+    gap: 8px;
+    padding: 10px;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.footer-bottom{
+    display: flex;
+    background-color: rgb(216, 214, 212);
+    color: rgb(83, 80, 80);
+    font-size: 9px;
+    justify-content:center;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 8px;
+}
+
+.results{
+    /* padding: 10px 0; */
+    display: flex;
+    justify-content: space-between;
+    ;
+}
+.results div:first-child{
+    font-size: 10px;
+    align-self: flex-end;
+}
+
+.results .text-muted{
+    font-size: 10px;
+
+}
